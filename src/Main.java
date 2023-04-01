@@ -17,7 +17,7 @@ public class Main {
         conta.setNomeCliente(scan.next());
 
         System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, " +
-                "conta %d e seu saldo já está disponível para saque.", conta.getNomeCliente(), conta.getAgencia(), conta.getNumero());
+                "conta %d e seu saldo de R$ %.2f já está disponível para saque.", conta.getNomeCliente(), conta.getAgencia(), conta.getNumero(), conta.getSaldo());
 
     }
 }
